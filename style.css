@@ -10,7 +10,7 @@ body{
     align-items: center;
     min-height: 100vh;
     /* background-color: rgba(0, 0, 0, 0.8); */
-    background: url('background.avif') no-repeat;
+    background: url('./background.avif') no-repeat;
     background-size: cover;
 }
 .clock{
