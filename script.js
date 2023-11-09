@@ -16,11 +16,11 @@ const showTime = () =>{
     min = min<10 ? `0${min}` : min;
     secs = secs<10 ? `0${secs}` : secs;
 
-    if(hr>12){
-        hr = hr-12;
-    }
+    // if(hr>12){
+    //     hr = hr-12;
+    // }
     time.innerHTML = `${hr} : ${min} : ${secs}`;
 
     timeformat.innerHTML = hr>12 ? "PM" : "AM";//24 hpours time format
-    // timeformat.innerHTML = hr>12 ? "PM" : "AM"; // 12 hours format
+    // timeformat.innerHTML = hr>12 ? "AM" : "PM"; // 12 hours format
 }
