@@ -21,6 +21,6 @@ const showTime = () =>{
     // }
     time.innerHTML = `${hr} : ${min} : ${secs}`;
 
-    timeformat.innerHTML = hr>12 ? "PM" : "AM";//24 hpours time format
-    // timeformat.innerHTML = hr>12 ? "AM" : "PM"; // 12 hours format
+    //timeformat.innerHTML = hr>12 ? "PM" : "AM";//24 hpours time format
+     timeformat.innerHTML = hr>12 ? "AM" : "PM"; // 12 hours format
 }
